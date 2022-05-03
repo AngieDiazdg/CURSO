@@ -1,0 +1,85 @@
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+header{
+   background-color: black;
+   width:100%;
+   text-align:center;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+}
+
+h1{
+    color: white;
+    font-size: 4rem;
+    margin:0;
+
+}
+
+
+.datos-2{
+    text-align: left;
+    background-color: tomato;
+    padding:2rem 4rem;
+}
+
+
+h2{
+    margin:0;
+    color: white;
+}
+
+h3{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: black;
+}
+main{
+    background-color: rgb(171, 171, 171);
+    padding:4rem 2rem;
+    margin: 0;
+}
+
+.formulario1{
+    padding: 4rem 2rem;
+}
+
+#botonenviar{
+
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+    padding: 0.5rem 3rem;
+    background-color: tomato;
+    border: none;
+    margin-top:2rem;
+    margin-bottom: 0.5rem;
+
+}
+
+#botonenviar:hover{
+
+   
+        background-color: rgb(255, 129, 106);
+        transition: ease-out;
+       
+    
+    }
+
+    .contenedor-main ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:2rem;
+    }
+
+    .itempreguntas{
+        displar:flex;
+    }
